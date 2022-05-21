@@ -59,7 +59,7 @@ img{
 .texttop {
     position: absolute;
     font-size: 2em;
-    left: 75px;
+    left: 110px;
 }
 .texttop{
     top: 20px;
@@ -80,5 +80,6 @@ img{
     background-color: #F9DB7B;
     cursor: pointer;
   }
+
   
-  
+ 

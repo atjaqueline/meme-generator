@@ -34,8 +34,15 @@ memeLi.appendChild(img);
 memeLi.appendChild(textOnTopDiv);
 memeLi.appendChild(textOnBottomDiv);
 
+form.reset();
 
 })
+
+function remove(e){
+    e.target.parentNode.remove();
+}
+
+gallery.addEventListener('click', remove, false);
 
 });
 
