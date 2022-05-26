@@ -8,7 +8,7 @@ body {
     letter-spacing: .2rem;
 }
 
-ul li{
+ul li {
 text-decoration: none;
 }
 
@@ -17,7 +17,8 @@ h1 {
     font-size: 4rem;
     margin: 60px;
 }
-header{
+
+header {
     background-color: #FBC1C1;
     display: flex;
     flex-direction: column;
@@ -36,18 +37,24 @@ form#form {
     margin-top: .5rem;
 }
 
-img{
-    height: 200px;
+img {
+    width: 400px;
      margin: 10px;
 }
-.image{
+
+.image {
     position: relative; 
 }
 
-.meme-image{
+.meme-image {
     position: relative;
 }
-.gallery{
+
+.meme-image:hover {
+    opacity: 0.5;
+}
+
+.gallery {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -55,19 +62,37 @@ img{
    max-width: 90%;
    margin: 0 auto;
 }
+
 .textbottom, 
 .texttop {
     position: absolute;
     font-size: 2em;
-    left: 110px;
+    left: 40%;
 }
-.texttop{
+
+.texttop {
     top: 20px;
-    
 }
-.textbottom{
+
+.textbottom {
     bottom: 20px;
-  
+}
+
+.delete-x {
+    width: 400px;
+	content: "X";
+	position: absolute;
+	top: 50%;
+	left:50%;
+	transform: translate(-50%, -44%);
+    opacity: 0;
+	text-align: center;
+	font-size: 200px;
+    transition: .5s ease-in-out;
+}
+
+.delete-x:hover {
+    opacity: 1.5;
 }
 
 .button {
